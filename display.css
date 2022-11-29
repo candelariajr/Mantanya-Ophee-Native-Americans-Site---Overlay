@@ -1,0 +1,55 @@
+body {
+   font-size:18px;
+ }
+
+@media screen {
+  .site-title {
+    font-size: 40px; 
+    }
+  header nav a {
+    font-size: 18px;
+  }
+}
+
+footer {
+ max-width: none;
+ min-height: 160px;
+ background-color: #9D2525;
+ color: #fff;
+ padding: 1rem 2rem;
+}
+
+.footer-logo {
+ float: right;
+ padding-left: 20px;
+}
+
+.footer-logo a, .footer-text, .footer-text a {
+ color: #fff;
+ font-family: "Gill Sans", sans-serif;
+ font-weight: normal;
+ border: 0;
+}
+
+.media-render>a>img{
+    max-width: 750px;
+    padding-bottom: 20px;
+}
+
+.item.resource>.thumbnail>img{
+    max-height: 200px;
+}
+
+.media-render{
+    max-width: 90%;
+}
+
+.media-render>a>img{
+
+}
+
+@media only screen and (max-width: 800px) {
+   .media-render>a>img{
+     max-width: 99%;
+   }
+}
